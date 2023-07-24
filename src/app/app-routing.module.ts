@@ -16,6 +16,13 @@ const routes: Routes = [
         (m) => m.TourOfHeroesModule
       ),
   },
+  {
+    path: 'standalone-components',
+    loadChildren: () =>
+      import('./standalone-components/standalone-components.module').then(
+        (m) => m.StandaloneComponentsModule
+      ),
+  },
 ];
 
 @NgModule({
