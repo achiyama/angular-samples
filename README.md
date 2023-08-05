@@ -8,5 +8,5 @@
 ルーティング付きモジュール作成
 
 ```
-ng generate module モジュール名 --routing
+ng generate module [module name] --routing
 ```
